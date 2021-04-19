@@ -1,6 +1,6 @@
 let transactions = [];
 let myChart;
-let db;
+
 
 fetch("/api/transaction")
   .then(response => {
@@ -79,11 +79,6 @@ function populateChart() {
   });
 }
 
-function saveRecord(exchange) {
-  let transaction = db.transaction(["pending"], "readwrite");
-  let store = transaction.objectstore("pending");
-  store.add(exchange);
-} 
 
 function sendTransaction(isAdding) {
   let nameEl = document.querySelector("#t-name");
