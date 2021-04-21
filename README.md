@@ -10,7 +10,8 @@
   * [License](#license)
   * [Contribution](#contribution)
   * [Usage](#usage)
-  * [Tests](#tests)
+  * [Install](#Install)
+  * [Links](#Links)
   * [Questions](#questions)
   ## Installation
   To install dependencies, run the below command :
@@ -33,6 +34,11 @@
      Michael Swigart
   ## Install
      npm install
+     
+  ## Links
+     https://budget-tracker93.herokuapp.com/
+     https://github.com/Michaelswigart
+  
   ## Questions
    If you have any questions reach me @ 
    Email : [sherlockholmes.swigart92@gmail.com](mailto:sherlockholmes.swigart92@gmail.com)
